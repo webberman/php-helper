@@ -1,9 +1,9 @@
 # PHP Helper
 
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Stable Version](https://img.shields.io/packagist/v/webberman/php-helper.svg?style=flat-square)](https://packagist.org/packages/webberman/php-helper)
-[![Build Status](https://github.com/webberman/php-helper/workflows/tests/badge.svg?style=flat-square)](https://github.com/webberman/php-helper/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/webberman/php-helper.svg?style=flat-square)](https://packagist.org/packages/webberman/php-helper)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
+[![Latest Stable Version](https://img.shields.io/packagist/v/webberman/php-helper.svg)](https://packagist.org/packages/webberman/php-helper)
+[![Build Status](https://github.com/webberman/php-helper/workflows/tests/badge.svg)](https://github.com/webberman/php-helper/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/webberman/php-helper.svg)](https://packagist.org/packages/webberman/php-helper)
 
 ## Install
 
