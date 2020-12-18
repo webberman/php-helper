@@ -1,0 +1,55 @@
+{
+    "name": "webberman/php-helper",
+    "description": "Collection of loadable php helper files that help you with a given task.",
+    "keywords": ["php", "helper", "functions", "url", "file", "cookie", "form"],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/webberman/php-helper/issues",
+        "source": "https://github.com/webberman/php-helper"
+    },
+    "authors": [
+        {
+            "name": "Chibuzor Anyagha",
+            "homepage": "https://chibuzor.com",
+            "email": "hello@chibuzor.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webberman\\Helper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webberman\\Helper\\Tests\\":"tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+              "Webberman\\Helper\\LaravelServiceProvider"
+            ],
+            "aliases": {
+                "Webberman": "Webberman\\Helper\\LaravelFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable":true
+}
